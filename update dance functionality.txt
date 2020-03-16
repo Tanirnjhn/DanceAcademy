@@ -1,0 +1,22 @@
+
+class Course{
+		startdate;
+		enddate;
+		choreographer_id;
+		status;
+		}
+		
+		if(enddate>currentdate)
+		{
+		status=="available";
+		}
+		else
+		{
+		status="unavailable";
+		}
+		
+		Whenever the end date is greater than current date then the status of that particular chororegraphher 
+		will be hidden or unavailable otherwise the status would be available for that choreographer. And the 
+		end date will be taken from course class where we have mentioned both the start as well 
+		as the end date of the particular course.
+		
